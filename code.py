@@ -5,7 +5,7 @@ def add(a, b):
 
 class TestMathFunctions(unittest.TestCase):
     def test_add_positive(self):
-        self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(3, 2), 5)
 
     def test_add_negative(self):
         self.assertEqual(add(-1, -1), -2)
